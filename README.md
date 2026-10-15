@@ -31,3 +31,5 @@ http://localhost:8081
 ## CI/CD
 Jenkins sẽ lấy source từ branch main, kiểm tra source, build Docker image và triển khai website.
 Test automatic CI CD trigger - 15/10/2026
+
+Test Jenkins Poll SCM
