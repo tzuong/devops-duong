@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps CI/CD Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DEVOPS CI/CD</h1>
+        <p>Website tự động triển khai bằng Jenkins và Docker</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>GitHub → Jenkins → Docker</h2>
+            <p>Đây là website demo cho bài thực hành DevOps.</p>
+            <div class="status">
+                <span class="dot"></span>
+                Website đang hoạt động
+            </div>
+            <button id="checkButton">Kiểm tra website</button>
+            <p id="result">Sẵn sàng kiểm tra.</p>
+        </section>
+
+        <section class="steps">
+            <div><strong>01</strong><h3>GitHub</h3><p>Lưu trữ source code</p></div>
+            <div><strong>02</strong><h3>Jenkins</h3><p>Tự động chạy Pipeline</p></div>
+            <div><strong>03</strong><h3>Docker</h3><p>Triển khai website</p></div>
+            <div><strong>04</strong><h3>Telegram</h3><p>Gửi thông báo kết quả</p></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>DevOps Assignment — CI/CD Pipeline</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
