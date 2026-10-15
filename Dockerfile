@@ -3,3 +3,4 @@ FROM nginx:alpine
 COPY site/ /usr/share/nginx/html/
 
 EXPOSE 80
+THIS_IS_AN_INTENTIONAL_ERROR
